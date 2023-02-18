@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background: url(eiffel.jpg) fixed center/cover;
+    position: relative;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ce1327ad;
+    padding: 80px;
+    border-radius: 120px 60px;
+    width: 50%;
+}
+
+h2 {
+    font-family: lato;
+    font-size: 2rem;
+    color: white;
+}
+
+.flag {
+    margin: 25px 0;
+}
+
+input {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid #ce1327;
+    font-family: lato;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+input:focus {
+    outline: none;
+    border-radius: 30px;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #ce1327;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: lato;
+    font-size: 1.3rem;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
